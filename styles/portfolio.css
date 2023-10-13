@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.orange_btn {
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+
+}
+.transparent_btn {
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px 35px;
+}
+
+.text_orange {
+    color: #FD6E0A;
+}
+
+/* header style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    /* border: 1px solid yellow; */
+}
+
+.nav_title {
+    font-size: 45px;
+    font-weight: 800;
+    /* border: 1px solid red; */
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    /* border: 1px solid rgb(12, 253, 253); */
+}
+
+/* banner style */
+.banner {
+    display: flex;
+    margin-left: 200px;
+    /* border: 1px solid rgb(12, 253, 253); */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_sub_title {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner_title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner_description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+header {
+    background-color: #FFF8F3;
+    border: 1px solid #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* Main Container Style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*About Section Style */
+.about_section{
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.section_title{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section_description{
+    margin: 30px;
+    font-size: 18px;
+}
+
+/* Contact Container Style */
+.contanct_container{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+.contact :first-child{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.contact :nth-child(2){
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
