@@ -13,6 +13,7 @@
     padding: 18px 35px;
 
 }
+
 .transparent_btn {
     background-color: transparent;
     border: 1px solid #FD6E0A;
@@ -80,6 +81,7 @@ nav ul {
     font-weight: 400;
     margin-bottom: 30px;
 }
+
 header {
     background-color: #FFF8F3;
     border: 1px solid #FFF8F3;
@@ -89,45 +91,143 @@ header {
 }
 
 /* Main Container Style */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
+    border: 1px solid red;  
+    /*----------------------------------------------------------------------*/
 }
+
 /*About Section Style */
-.about_section{
+.about_section {
     background: #FFF8F3;
     border-radius: 10px;
-    padding: 130px 150px;
-    margin-top: 130px;
+    padding: 130px 100px;
+    margin: 100px;
     text-align: center;
 }
 
-.section_title{
+.section_title {
     font-weight: 700;
     font-size: 35px;
+    text-align: center;
 }
 
-.section_description{
+.section_description {
     margin: 30px;
     font-size: 18px;
 }
 
 /* Contact Container Style */
-.contanct_container{
+.contanct_container {
     display: flex;
-    max-width: 800px;
     margin: 0 auto;
     justify-content: space-around;
-    border: 1px solid red;
 }
-.contact :first-child{
+
+.contact :first-child {
     font-size: 20px;
     font-weight: 400;
     color: #757575;
 }
 
-.contact :nth-child(2){
+.contact :nth-child(2) {
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+}
+
+/* What I do section style */
+.whatIDo_section {
+    text-align: center;
+    margin-bottom: 130px;
+    /* border: 1px solid red; */
+    /* padding: 0px 100px; */
+}
+
+.work_description {
+    padding: 0 200px;
+}
+
+/* skill card style */
+.skills_container {
+    display: flex;
+    gap: 15px;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skill_card {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill_card :nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill_card img {
+    margin-bottom: 10px;
+}
+
+.skill_card :nth-child(2) {
+    margin-bottom: 10px;
+}
+.skill_card :nth-child(3){
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Resume Section Style */
+.summary_section{
+
+}
+.qualification_container{
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;  
+}
+.education_contnainer{
+    /* width: 50%; */
+    /* border: 1px solid yellow */
+}
+.experience_contnainer{
+    /* width: 50%; */
+    /* border: 1px solid blueviolet; */
+
+}
+.my_educationAndExperience{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.eduexp_title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.eduexp_subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.eduexp_description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    padding-right: 50px;
+}
+.downloadCV_btn{
+    margin-top: 50px;
+    text-align: center;
+}
+hr{
+    margin: 30px 0;
 }
