@@ -94,8 +94,6 @@ header {
 main {
     max-width: 1140px;
     margin: 0 auto;
-    border: 1px solid red;  
-    /*----------------------------------------------------------------------*/
 }
 
 /*About Section Style */
@@ -179,55 +177,115 @@ main {
 .skill_card :nth-child(2) {
     margin-bottom: 10px;
 }
-.skill_card :nth-child(3){
+
+.skill_card :nth-child(3) {
     font-size: 16px;
     font-weight: 400;
 }
-/* Resume Section Style */
-.summary_section{
 
-}
-.qualification_container{
+/* Resume Section Style */
+.summary_section {}
+
+.qualification_container {
     display: flex;
     margin-top: 100px;
-    gap: 24px;  
+    gap: 24px;
 }
-.education_contnainer{
+
+.education_contnainer {
     /* width: 50%; */
     /* border: 1px solid yellow */
 }
-.experience_contnainer{
+
+.experience_contnainer {
     /* width: 50%; */
     /* border: 1px solid blueviolet; */
 
 }
-.my_educationAndExperience{
+
+.my_educationAndExperience {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 30px;
 }
-.eduexp_title{
+
+.eduexp_title {
     font-size: 25px;
     font-weight: 700;
     color: #474747;
 }
-.eduexp_subtitle{
+
+.eduexp_subtitle {
     font-size: 20px;
     font-weight: 600;
     color: #757575;
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.eduexp_description{
+
+.eduexp_description {
     font-size: 16px;
     font-weight: 400;
     color: #757575;
     padding-right: 50px;
 }
-.downloadCV_btn{
+
+.downloadCV_btn {
     margin-top: 50px;
     text-align: center;
 }
-hr{
+
+hr {
     margin: 30px 0;
+}
+
+/* footer style */
+footer {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+    margin-top: 110px;
+    background: #FFF8F3;
+    padding-bottom: 130px;
+}
+.lets_connect {
+    width: 500px; 
+    margin-left: 100px;
+}
+.massage_me{
+    width: 460px;
+    margin-right: 100px;
+}
+.lets_connect h5 {
+    text-align: left;
+    margin-top: 80px;
+}
+
+.footer_description {
+    margin-top: 20px;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+form input, textarea{
+    border: 0;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.massage_me h5{
+    margin-top: 80px;
+    margin-bottom: 28px;
+}
+textarea{
+    height: 200px;
+    padding-top: 20px;
+}
+.lets_connect a {
+    
+    margin-right: 12px;
 }
