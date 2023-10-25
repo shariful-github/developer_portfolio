@@ -11,7 +11,16 @@
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px;
-
+    cursor: pointer;
+}
+.orange_btn:hover {
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px 34px;
 }
 
 .transparent_btn {
@@ -22,6 +31,16 @@
     font-size: 20px;
     font-weight: 700;
     padding: 17px 35px;
+    cursor: pointer;
+}
+.transparent_btn:hover {
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
 }
 
 .text_orange {
@@ -53,6 +72,10 @@ nav ul {
     align-items: center;
     /* border: 1px solid rgb(12, 253, 253); */
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
 /* banner style */
 .banner {
@@ -65,19 +88,19 @@ nav ul {
 
 .banner_sub_title {
     color: #474747;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 600;
 }
 
 .banner_title {
     color: #181818;
-    font-size: 85px;
+    font-size: 55px;
     font-weight: 700;
 }
 
 .banner_description {
     color: #757575;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin-bottom: 30px;
 }
@@ -88,6 +111,10 @@ header {
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    background-size: 60%, auto;
+}
+.banner img{
+    width: 50%;
 }
 
 /* Main Container Style */
@@ -249,11 +276,11 @@ footer {
     padding-bottom: 130px;
 }
 .lets_connect {
-    width: 500px; 
+    width: 50%;
     margin-left: 100px;
 }
 .massage_me{
-    width: 460px;
+    width: 40%;
     margin-right: 100px;
 }
 .lets_connect h5 {
@@ -288,4 +315,96 @@ textarea{
 .lets_connect a {
     
     margin-right: 12px;
+}
+
+/* hide section */
+.hide{
+    display: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 576px) {
+    .skills_container{
+        flex-direction: column;
+    }
+    .section_description {
+        padding: 0;
+        text-align: justify;
+    }
+    .about_section{
+        margin:30px 0;
+    }
+    .contanct_container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .about_section{
+        padding: 40px 10px;
+    }
+    footer{
+        flex-direction: column;
+        /* padding: 20px; */
+        text-align: center;
+    }
+    .lets_connect{
+        margin: 0;
+        text-align: center;
+        width: auto;
+        padding: 20px;
+    }
+    .lets_connect h5{
+        margin: 0;
+        text-align: center;
+        width: auto;
+    }
+    .massage_me{
+        width: auto;
+        margin: 0;
+        padding: 20px;
+    }
+    .massage_me h5{
+        margin-top: 0;
+    }
+    form input, textarea{
+        width: 90%;
+    }
+    .qualification_container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav, ul{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+        margin-left: 30%;
+        align-items: flex-start;
+        padding-bottom: 10%;
+    }
+    header {
+        background-image: none, url("../images/developer.png");
+    }
+    nav li {
+        list-style: none;
+        margin: 0;
+    }
+    nav{
+        margin: 20% 0% 5% 30%;
+    }
+    nav ul{
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .orange_btn {
+        padding: 8px 35px;
+        font-size: 16px;
+    }
+    .banner img{
+        order: -1;
+        width: 100%;
+    }
+    .banner button{
+        margin-bottom: 5%;
+    }
 }
