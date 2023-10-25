@@ -400,6 +400,18 @@ textarea{
         padding: 8px 35px;
         font-size: 16px;
     }
+    .transparent_btn{
+        padding: 8px 35px;
+        font-size: 16px;
+    }
+    .orange_btn:hover {
+        padding: 7px 35px;
+        font-size: 16px;
+    }
+    .transparent_btn:hover{
+        padding: 9px 35px;
+        font-size: 16px;
+    }
     .banner img{
         order: -1;
         width: 100%;
